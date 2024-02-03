@@ -10,6 +10,7 @@ namespace StudentSquads
 {
     public record Squad(
         [property: JsonPropertyName("squad_name")] string Name,
-        [property: JsonPropertyName("squad_id")] int Id);
+        [property: JsonPropertyName("squad_id")] int Id,
+        [property: JsonPropertyName("squad_icon_absolute_link")] string squadIconAbsoluteLink);
     
 }
